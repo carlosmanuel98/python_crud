@@ -1,0 +1,36 @@
+<div class="modal fade" id="new-product" tabindex="-1" aria-labelledby="new-productLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header bg-primary">
+            <h5 class="modal-title text-white" id="new-productLabel">Nuevo producto</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form id="form-new-product">
+                <div class="mb-3">
+                    <label for="codigo" class="col-form-label">Código:</label>
+                    <input type="number" class="form-control" name="codigo" id="codigo" required>
+                </div>
+                <div class="mb-3">
+                    <label for="descripcion" class="col-form-label">Descripción:</label>
+                    <input type="text" class="form-control" name="descripcion" id="descripcion" required>
+                </div>
+                <div class="mb-3">
+                    <label for="cantidad" class="col-form-label">Cantidad:</label>
+                    <input type="number" class="form-control" name="cantidad" id="cantidad" required>
+                </div>
+                <div class="mb-3">
+                    <label for="precio" class="col-form-label">Precio:</label>
+                    <input type="number" class="form-control" name="precio"  id="precio" required>
+                </div>
+        
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary new-product">Agregar Producto</button>
+        
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+    </div>
